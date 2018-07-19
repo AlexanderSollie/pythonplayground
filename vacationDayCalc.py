@@ -32,12 +32,11 @@ def checkForTimeOff(arr, xx):
 
 
 def addHoliday(year, month, day):
-	addDay(h, year, month, day)
+	addDay(h, year, month, day
 
-
+)
 def addVacation(year, month, day):
 	addDay(v, year, month, day)
-
 
 def getTopAccRate(date):
 	# If you've been working for more than seven years you get max
@@ -74,13 +73,12 @@ addHoliday(2019, 1,  1 ) # New Year's Day
 addHoliday(2019, 4,  1 ) # Easter
 
 # Add your Planned Time Off
-# addVacation(2018, 5, 11)  # Graduation
-addVacation(2018, 6,  18) # Backpacking trip?
-addVacation(2018, 7,  5 ) # Extra 4th of July time
-addVacation(2018, 7,  6 ) # Extra 4th of July time
-addVacation(2018, 8,  9 ) # ShawBra Wedding
+addVacation(2018, 8,  10) # ShawBra Wedding
 addVacation(2018, 8,  13) # ShawBra Wedding
-addVacation(2018, 8,  27) # Backpacking trip?
+addVacation(2018, 9,  4 ) # Labor Day backpacking?
+addVacation(2018, 9,  5 ) # Labor Day backpacking?
+addVacation(2018, 9,  6 ) # Labor Day backpacking?
+addVacation(2018, 9,  7 ) # Labor Day backpacking?
 addVacation(2018, 11, 19) # Visit Dad?
 addVacation(2018, 11, 20) # Visit Dad?
 addVacation(2018, 11, 21) # Visit Dad?
